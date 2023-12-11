@@ -5,7 +5,7 @@ from django.conf import settings
 # Create your views here.
 
 def home(request):
-    
+  
     with get_connection(  
            host=settings.EMAIL_HOST, 
      port=settings.EMAIL_PORT,  
